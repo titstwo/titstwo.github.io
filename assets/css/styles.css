@@ -107,3 +107,10 @@
 .white-bg .text-info {
     color: #610022 !important;
 }
+#mc_embed_signup {
+    border-radius: .75rem;
+    background-color: #F06999 !important;
+    color: #fff !important;
+    padding: 1.5rem;
+    text-align: center;
+}
