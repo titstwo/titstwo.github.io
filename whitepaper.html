@@ -94,6 +94,9 @@
               <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="/donations">Donations</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="/whitepaper">White Paper</a>
             </li>
             <li class="nav-item">
@@ -121,6 +124,7 @@
       </div>
     </div>
     <div class="py-4 stats-container" style="background-color:rgba(255,255,255,0.02)">
+  
       <div class="container text-center">
         <div class="d-flex flex-column flex-lg-row">
           <div class="flex-fill mb-3 mb-lg-0">
@@ -132,17 +136,18 @@
               </div>
               <div class="flex-fill">
                 <span class="mb-0 font-weight-bold  text-white">
+                  <i class="far fa-dollar-sign"></i>
                   <span>
-                    $75,000
+                    75,000
                   </span>
                 </span><br>
-                <small class="text-white-50 text-uppercase">Donations to date</small>
+                <small class="text-white-50 text-uppercase">Total Raised</small>
               </div>
               <div class="flex-fill">
                 <span class="text-white mb-0 font-weight-bold">
                   <i class="far fa-dollar-sign"></i>
-                  <span>
-                    $0.00000001572
+                  <span id="value">
+                    <i class="fad fa-spinner fa-pulse"></i>
                   </span>
                 </span><br>
                 <small class="text-white-50 text-uppercase">Value</small>
@@ -161,16 +166,18 @@
             <div class="d-flex">
               <div class="flex-fill">
                 <span class="mb-0 font-weight-bold text-white">
-                  <span >
-                    $728,587
+                  <i class="far fa-dollar-sign"></i>
+                  <span id="lptotal">
+                    <i class="fad fa-spinner fa-pulse"></i>
                   </span>
                 </span><br>
                 <small class="text-white-50 text-uppercase">Liquidity (USD)</small>
               </div>
               <div class="flex-fill">
                 <span class="mb-0 font-weight-bold  text-white">
-                  <span>
-                    $15,688,515
+                  <i class="far fa-dollar-sign"></i>
+                  <span id="marketcap">
+                    <i class="fad fa-spinner fa-pulse"></i>
                   </span>
                 </span><br>
                 <small class="text-white-50 text-uppercase">Market Cap (USD)</small>
@@ -178,7 +185,7 @@
               <div class="flex-fill">
                 <span class="mb-0 font-weight-bold text-white">
                   <span id="burned">
-                    800T
+                    <i class="fad fa-spinner fa-pulse"></i>
                   </span>
                 </span><br>
                 <small class="text-white-50 text-uppercase">Burned</small>

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<title>Home | Tits Coin</title>
+<title>Guide | Tits Coin</title>
 <meta name="viewport" content="width=device-width, initial-scale=0.87, shrink-to-fit=no">
 <meta name="description" content="The official home of Tits Coin. The Tits Protocol is a community driven, fair launched DeFi Token. Three simple functions occur during each trade: Reflection, LP Acquisition, and Burn.">
 <meta name="keywords" content="tits coins,tits,bitcoin,dogecoin,doge,defi,coinbase,coinmarketcap,coinmarket,bscscan,whitebit,coingecko,cryptocurrency,crypto,pancakeswap,dex,etherium,eth,btc">
@@ -101,7 +101,7 @@ The official home of Tits Coin
 <a class="nav-link" href="/whitepaper">White Paper</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="./guide.html">How to Buy</a>
+<a class="nav-link" href="/guide">How to Buy</a>
 </li>
 </ul>
 <a class="btn bg-gradient-info rounded-pill px-5 text-white border-0 buy-link shadow-lg-none shadow-sm" target="_blank" href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xfe7e350009a1f3915352022b1bfc2087d7b1d1cd">
@@ -125,6 +125,7 @@ Buy Now
 </div>
 </div>
 <div class="py-4 stats-container" style="background-color:rgba(255,255,255,0.02)">
+  
   <div class="container text-center">
     <div class="d-flex flex-column flex-lg-row">
       <div class="flex-fill mb-3 mb-lg-0">
@@ -136,17 +137,18 @@ Buy Now
           </div>
           <div class="flex-fill">
             <span class="mb-0 font-weight-bold  text-white">
+              <i class="far fa-dollar-sign"></i>
               <span>
-                $75,000
+                75,000
               </span>
             </span><br>
-            <small class="text-white-50 text-uppercase">Donations to date</small>
+            <small class="text-white-50 text-uppercase">Total Raised</small>
           </div>
           <div class="flex-fill">
             <span class="text-white mb-0 font-weight-bold">
               <i class="far fa-dollar-sign"></i>
-              <span>
-                $0.00000001572
+              <span id="value">
+                <i class="fad fa-spinner fa-pulse"></i>
               </span>
             </span><br>
             <small class="text-white-50 text-uppercase">Value</small>
@@ -165,16 +167,18 @@ Buy Now
         <div class="d-flex">
           <div class="flex-fill">
             <span class="mb-0 font-weight-bold text-white">
-              <span >
-                $728,587
+              <i class="far fa-dollar-sign"></i>
+              <span id="lptotal">
+                <i class="fad fa-spinner fa-pulse"></i>
               </span>
             </span><br>
             <small class="text-white-50 text-uppercase">Liquidity (USD)</small>
           </div>
           <div class="flex-fill">
             <span class="mb-0 font-weight-bold  text-white">
-              <span>
-                $15,688,515
+              <i class="far fa-dollar-sign"></i>
+              <span id="marketcap">
+                <i class="fad fa-spinner fa-pulse"></i>
               </span>
             </span><br>
             <small class="text-white-50 text-uppercase">Market Cap (USD)</small>
@@ -182,7 +186,7 @@ Buy Now
           <div class="flex-fill">
             <span class="mb-0 font-weight-bold text-white">
               <span id="burned">
-                800T
+                <i class="fad fa-spinner fa-pulse"></i>
               </span>
             </span><br>
             <small class="text-white-50 text-uppercase">Burned</small>
@@ -345,6 +349,15 @@ How to Buy
 
 <script>
     AOS.init();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-224MNH8PDR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-224MNH8PDR');
 </script>
 </html>
 
