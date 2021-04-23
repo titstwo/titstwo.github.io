@@ -114,4 +114,41 @@
     padding: 1.5rem;
     text-align: center;
 }
-
+.donations-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;    
+}
+.donations-wrapper a {
+    background-color: #fff2f6;
+    height: 100%;
+    padding: 10px;
+    align-self: stretch;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    margin: 0 10px;
+    height: auto;
+}
+.thumbnail-background {
+    max-width: 100%;
+    height: auto;
+    padding: .25rem;
+    border: 1px solid #ffe6ef;
+    border-radius: .375rem;
+    background-color: #fffafb;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%);
+    margin: auto;
+}
+.donations-wrapper img { 
+    margin: auto
+}
+.img-thumbnail-n {
+    max-width: 100%;
+    height: auto;
+    padding: .25rem;
+    border-radius: .375rem;
+    margin: auto;
+}

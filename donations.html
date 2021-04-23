@@ -227,7 +227,41 @@ Buy Now
   <p class="mb-4">
     TITS coin is a  philanthropic cryptocurrency committed to enhancing the lives of women and families impacted by breast cancer. Our mission is to provide emotional and financial support, spread awareness, and ensure funding for critical research—all in pursuit of a cure.    
   </p>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
+
+<div class="container">
+
+  <h2 class="text-center text-uppercase text-info mt-4 mb-0">Donations Gallery</h2>
+
+  <hr class="mt-2 mb-5">
+
+  <div class="row text-center text-lg-left justify-content-center">
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="./assets/images/titscoin_donations_1.jpeg" class="d-flex mb-4 h-100 thumbnail-background" data-fancybox="donations">
+            <img class="img-fluid img-thumbnail-n" src="./assets/images/titscoin_donations_1_tn.jpg" alt="">
+          </a>
+    </div>    
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="./assets/images/titscoin_donations_2.jpeg" class="d-flex mb-4 h-100 thumbnail-background" data-fancybox="donations">
+            <img class="img-fluid img-thumbnail-n" src="./assets/images/titscoin_donations_2_tn.jpg" alt="">
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6 mt-4 mt-md-0">
+      <a href="./assets/images/titscoin_donations_3.jpeg" class="d-flex mb-4 h-100 thumbnail-background" data-fancybox="donations">
+            <img class="img-fluid img-thumbnail-n" src="./assets/images/titscoin_donations_3_tn.jpg" alt="">
+          </a>
+    </div>
   </div>
+
+</div>
+
+</div>
+
   <div class="card border-0 rounded-0" style="margin-bottom: 0;border-bottom: 1px solid #e74e85 !important;">
     <div class="card-body py-5">
       <div class="container">
@@ -366,5 +400,21 @@ How to Buy
 
   gtag('config', 'G-224MNH8PDR');
 </script>
-</html>
+<script>
+$('[data-fancybox="donations"]').fancybox({
+  buttons : [ 
+    //'slideShow',
+    //'share',
+    //'zoom',
+    //'fullScreen',
+    'close'
+  ],
 
+  loop: true,
+  
+  thumbs : {
+    autoStart : false
+  }
+});
+</script>
+</html>
