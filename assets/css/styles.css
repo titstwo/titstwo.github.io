@@ -53,7 +53,7 @@
 .coinimage-bg:before {
     width: 100%;
     height: 100%;
-    background-image: url(./../images/CoinImage.png);
+    background-image: url(./../images/CoinImage_1500x.png);
         content: ' ';
         display: block;
         position: absolute;
