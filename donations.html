@@ -26,6 +26,7 @@
   <link href="./assets/css/flip.css" rel="stylesheet">
   <script src="https://unpkg.com/@pqina/flip/dist/flip.min.js"></script>
   <link href="./assets/css/carousel.css" rel="stylesheet">
+  <script src="./assets/js/progressbar.js"></script>
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
   
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
@@ -128,8 +129,8 @@
     
     
     </div>
-    <div class="py-4 stats-container>
-      
+    <div class="py-4 stats-container">
+    
       <div class="container text-center">
         <div class="d-flex flex-column flex-lg-row">
           <div class="flex-fill mb-3 mb-lg-0">
@@ -141,7 +142,7 @@
               </div>
               <div class="flex-fill">
                 <span class="mb-0 font-weight-bold  text-white">
-                  <i class="far fa-dollar-sign"></i>
+                  <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="dollar-sign" class="svg-inline--fa fa-dollar-sign fa-w-9" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 512"><path fill="currentColor" d="M211.9 242.1L95.6 208.9c-15.8-4.5-28.6-17.2-31.1-33.5C60.6 150 80.3 128 105 128h73.8c15.9 0 31.5 5 44.4 14.1 6.4 4.5 15 3.8 20.5-1.7l22.9-22.9c6.8-6.8 6.1-18.2-1.5-24.1C240.4 74.3 210.4 64 178.8 64H176V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C60.3 64 14.9 95.8 3.1 143.6c-13.9 56.2 20.2 111.2 73 126.3l116.3 33.2c15.8 4.5 28.6 17.2 31.1 33.5C227.4 362 207.7 384 183 384h-73.8c-15.9 0-31.5-5-44.4-14.1-6.4-4.5-15-3.8-20.5 1.7l-22.9 22.9c-6.8 6.8-6.1 18.2 1.5 24.1 24.6 19.1 54.6 29.4 86.3 29.4h2.8v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48h2.5c49.2 0 94.6-31.8 106.4-79.6 13.9-56.2-20.2-111.2-73-126.3z"></path></svg>
                   <span>
                     75,000
                   </span>
@@ -150,7 +151,7 @@
               </div>
               <div class="flex-fill">
                 <span class="text-white mb-0 font-weight-bold">
-                  <i class="far fa-dollar-sign"></i>
+                  <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="dollar-sign" class="svg-inline--fa fa-dollar-sign fa-w-9" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 512"><path fill="currentColor" d="M211.9 242.1L95.6 208.9c-15.8-4.5-28.6-17.2-31.1-33.5C60.6 150 80.3 128 105 128h73.8c15.9 0 31.5 5 44.4 14.1 6.4 4.5 15 3.8 20.5-1.7l22.9-22.9c6.8-6.8 6.1-18.2-1.5-24.1C240.4 74.3 210.4 64 178.8 64H176V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C60.3 64 14.9 95.8 3.1 143.6c-13.9 56.2 20.2 111.2 73 126.3l116.3 33.2c15.8 4.5 28.6 17.2 31.1 33.5C227.4 362 207.7 384 183 384h-73.8c-15.9 0-31.5-5-44.4-14.1-6.4-4.5-15-3.8-20.5 1.7l-22.9 22.9c-6.8 6.8-6.1 18.2 1.5 24.1 24.6 19.1 54.6 29.4 86.3 29.4h2.8v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48h2.5c49.2 0 94.6-31.8 106.4-79.6 13.9-56.2-20.2-111.2-73-126.3z"></path></svg>
                   <span id="value">
                     <i class="fad fa-spinner fa-pulse"></i>
                   </span>
@@ -171,7 +172,7 @@
             <div class="d-flex">
               <div class="flex-fill">
                 <span class="mb-0 font-weight-bold text-white">
-                  <i class="far fa-dollar-sign"></i>
+                  <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="dollar-sign" class="svg-inline--fa fa-dollar-sign fa-w-9" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 512"><path fill="currentColor" d="M211.9 242.1L95.6 208.9c-15.8-4.5-28.6-17.2-31.1-33.5C60.6 150 80.3 128 105 128h73.8c15.9 0 31.5 5 44.4 14.1 6.4 4.5 15 3.8 20.5-1.7l22.9-22.9c6.8-6.8 6.1-18.2-1.5-24.1C240.4 74.3 210.4 64 178.8 64H176V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C60.3 64 14.9 95.8 3.1 143.6c-13.9 56.2 20.2 111.2 73 126.3l116.3 33.2c15.8 4.5 28.6 17.2 31.1 33.5C227.4 362 207.7 384 183 384h-73.8c-15.9 0-31.5-5-44.4-14.1-6.4-4.5-15-3.8-20.5 1.7l-22.9 22.9c-6.8 6.8-6.1 18.2 1.5 24.1 24.6 19.1 54.6 29.4 86.3 29.4h2.8v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48h2.5c49.2 0 94.6-31.8 106.4-79.6 13.9-56.2-20.2-111.2-73-126.3z"></path></svg>
                   <span id="lptotal">
                     <i class="fad fa-spinner fa-pulse"></i>
                   </span>
@@ -180,7 +181,7 @@
               </div>
               <div class="flex-fill">
                 <span class="mb-0 font-weight-bold  text-white">
-                  <i class="far fa-dollar-sign"></i>
+                  <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="dollar-sign" class="svg-inline--fa fa-dollar-sign fa-w-9" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 512"><path fill="currentColor" d="M211.9 242.1L95.6 208.9c-15.8-4.5-28.6-17.2-31.1-33.5C60.6 150 80.3 128 105 128h73.8c15.9 0 31.5 5 44.4 14.1 6.4 4.5 15 3.8 20.5-1.7l22.9-22.9c6.8-6.8 6.1-18.2-1.5-24.1C240.4 74.3 210.4 64 178.8 64H176V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C60.3 64 14.9 95.8 3.1 143.6c-13.9 56.2 20.2 111.2 73 126.3l116.3 33.2c15.8 4.5 28.6 17.2 31.1 33.5C227.4 362 207.7 384 183 384h-73.8c-15.9 0-31.5-5-44.4-14.1-6.4-4.5-15-3.8-20.5 1.7l-22.9 22.9c-6.8 6.8-6.1 18.2 1.5 24.1 24.6 19.1 54.6 29.4 86.3 29.4h2.8v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48h2.5c49.2 0 94.6-31.8 106.4-79.6 13.9-56.2-20.2-111.2-73-126.3z"></path></svg>
                   <span id="marketcap">
                     <i class="fad fa-spinner fa-pulse"></i>
                   </span>
@@ -205,7 +206,7 @@
   <div class="tick" data-value="75000" data-did-init="handleTickInit">
 
     <h2 class="text-info center-donations">TOTAL RAISED</h2>
-    <div data-value-mapping="indexes" data-layout="horizontal fit" data-transform="arrive(.2) -> round -> split -> delay(rtl, 100, 150)" style="font-size: 50px !important;" class="override-font mb-5">
+    <div data-value-mapping="indexes" data-layout="horizontal fit" data-transform="arrive(50, 1) -> round -> split -> delay(rtl, 100, 150)" style="font-size: 50px !important;" class="override-font mb-5">
 
         <span class="tick-text-inline">$</span>
 
@@ -223,6 +224,36 @@
     </div>    
 </div>
 
+<h2 class="text-info center-donations margin-bottom-50">COUNTDOWN TO $1 MILLION </h2>
+<div id="container">  
+  <div class="speech-bubble speech-bubble-1">
+    <div class="arrow bottom right"></div>
+    $250,000
+  </div>
+  <div class="speech-bubble speech-bubble-2">
+    <div class="arrow bottom right"></div>
+    $500,000
+  </div>
+  <div class="speech-bubble speech-bubble-3">
+    <div class="arrow bottom right"></div>
+    $750,000
+  </div>
+  <div class="speech-bubble speech-bubble-4">
+    <div class="arrow bottom right"></div>
+    $1,000,000
+  </div>
+  <div class="v-line line-1"></div>
+  <div class="v-line line-2"></div>
+  <div class="v-line line-3"></div>
+  <div class="bottom-progress"></div>
+  <!-- <div class="v-line line-4"></div>
+  <div class="v-line line-5"></div>
+  <div class="v-line line-6"></div>
+  <div class="v-line line-7"></div>
+  <div class="v-line line-8"></div>
+  <div class="v-line line-9"></div> -->
+</div>
+
   <h2 class="text-info">Our Purpose- For Women Everywhere</h2>
   <p class="mb-4">
     TITS coin is a  philanthropic cryptocurrency committed to enhancing the lives of women and families impacted by breast cancer. Our mission is to provide emotional and financial support, spread awareness, and ensure funding for critical research—all in pursuit of a cure.    
@@ -235,7 +266,7 @@
 
   <h2 class="text-center text-uppercase text-info mt-4 mb-0">Donations Gallery</h2>
 
-  <hr class="mt-2 mb-5">
+  <hr class="mt-2 mb-4">
 
   <div class="mobile-only">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -453,6 +484,20 @@ window.onload = function() {
   carouselNormalization();
 }
   </script> -->
+  <!-- <script>
+    function handleTickInit(tick) {
+
+        // set final value, tick will animate towards it
+        setTimeout(function(){
+            tick.value = 75000;
+        }, 100);
+
+        // play with arrive() values to tune animation speed and duration
+        // 1. first value is maximum speed of increase
+        // 2. second value is speed at which the increase ramps up
+
+    }
+  </script> -->
   <script>
     $('[data-fancybox="donations"]').fancybox({
     buttons : [ 'close'],
@@ -484,6 +529,39 @@ window.onload = function() {
             }
         }
     });
+  </script>
+  <script>
+    // progressbar.js@1.0.0 version is used
+// Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
+var aaa = 0;
+var bar = new ProgressBar.Line(container, {
+  strokeWidth: 8,
+  easing: 'easeInOut',
+  duration: 2000,
+  color: '#ee6c9a',
+  trailColor: '#ffe6ed',
+  trailWidth: 8,
+  svgStyle: {width: '100%', position: 'absolute', height: '30px', borderRadius: '4px', border: '1px solid #ee6c9a'},
+  text: {
+    style: {
+      // Text color.
+      // Default: same as stroke color (options.color)
+      position: 'absolute',
+      right: '0',
+      bottom: '-2px',
+      transform: '-100px',
+    },
+    autoStyleContainer: false
+  },
+  from: {color: '#f9bacc'},
+  to: {color: '#ee6c9a'},
+  step: (state, bar) => {
+    bar.setText("$" + Math.round((bar.value()*1000000)).toLocaleString());
+    $('.progressbar-text').css('left', (bar.value()*100).toFixed(2)+'%');
+    $('.bottom-progress').css('left', (bar.value()*100).toFixed(2)+'%');
+  }
+});
+bar.animate(0.075);  // Number from 0.0 to 1.0
   </script>
   </html>
   
