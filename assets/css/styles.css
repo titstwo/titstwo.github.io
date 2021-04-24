@@ -280,7 +280,7 @@ video {
     .speech-bubble-4 {
         width: 100px;
     }
-    .speech-bubble-1, .speech-bubble-3 {
+    .speech-bubble-1, .speech-bubble-2, .speech-bubble-3 {
         display: none;
     }
     #container {
