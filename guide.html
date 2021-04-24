@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -6,7 +7,6 @@
 <meta name="description" content="The official home of Tits Coin. The Tits Protocol is a community driven, fair launched DeFi Token. Three simple functions occur during each trade: Reflection, LP Acquisition, and Burn.">
 <meta name="keywords" content="tits coins,tits,bitcoin,dogecoin,doge,defi,coinbase,coinmarketcap,coinmarket,bscscan,whitebit,coingecko,cryptocurrency,crypto,pancakeswap,dex,etherium,eth,btc">
 <link rel="shortcut icon" type="image/png" href="https://d308fakbqebk7c.cloudfront.net/tits/images/favicon.png">
-<link rel="canonical" href="https://tits.io/">
 <meta property='og:image' content='https://d308fakbqebk7c.cloudfront.net/tits/images/titscoin-social.png' />
 <meta property='og:image:type' content='image/png' />
 <meta property='og:image:width' content='1280' />
@@ -17,10 +17,12 @@
 <meta name="twitter:site" content="@titsio">
 <meta name='twitter:image' content='https://d308fakbqebk7c.cloudfront.net/tits/images/titscoin-social.png' />
 <link rel="shortcut icon" type="image/png" href="https://d308fakbqebk7c.cloudfront.net/tits/images/favicon.png">
-<link rel="stylesheet" type="text/css" href="./assets/css/argon.css" />
+<link rel="stylesheet" type="text/css" href="./assets/css/essentials.css" />
+<link rel="preload" href="./assets/css/argon.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="./assets/css/argon.css"></noscript>
 <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+<link rel="canonical" href="https://titscoin.io"/>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://d308fakbqebk7c.cloudfront.net/tits/js/cookie.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;500;700;900&display=swap" rel="stylesheet">
 <style>
@@ -262,39 +264,48 @@ The official home of Tits Coin
   </div>
   </div>
   </footer>
-  
-  </body>
-  
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-224MNH8PDR"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-224MNH8PDR');
-  </script>
-  
-  <script type="text/javascript" src="https://d308fakbqebk7c.cloudfront.net/tits/js/bootstrap.js"></script>
-  <script type="text/javascript" src="https://d308fakbqebk7c.cloudfront.net/tits/js/argon.js"></script>
-  
-  <script>
-  
-  $( document ).ready(function() {    
-    var web3 = "https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"
-    $.getScript( web3, function() {    
-      $.getScript("https://d308fakbqebk7c.cloudfront.net/tits/js/custom.js");
-    });
-  
-    var url = "https://unpkg.com/aos@2.3.1/dist/aos.js";
-    $.getScript( url, function() {
-      AOS.init({
-        startEvent: 'DOMContentLoaded'
-      });
-    });
-  
+
+<script>
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    // Your custom settings go here
+  };
+</script>
+<script
+async
+src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"
+></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-224MNH8PDR"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-224MNH8PDR');
+</script>
+</body>
+
+<script type="text/javascript" defer src="https://d308fakbqebk7c.cloudfront.net/tits/js/bootstrap.js"></script>
+<script type="text/javascript" defer src="https://d308fakbqebk7c.cloudfront.net/tits/js/argon.js"></script>
+<script type="text/javascript" defer src="https://d308fakbqebk7c.cloudfront.net/tits/js/cookie.js"></script>
+<script>
+
+$( document ).ready(function() {    
+var web3 = "https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"
+$.getScript( web3, function() {    
+  $.getScript("https://d308fakbqebk7c.cloudfront.net/tits/js/custom.js");
+});
+
+var url = "https://unpkg.com/aos@2.3.1/dist/aos.js";
+$.getScript( url, function() {
+  AOS.init({
+    startEvent: 'DOMContentLoaded'
   });
-  </script>
-  </html>
-  
+});
+
+});
+</script>
+
+</html>
