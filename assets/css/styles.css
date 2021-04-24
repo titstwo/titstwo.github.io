@@ -103,4 +103,6 @@ img {
         min-height: fit-content;
     }
 }
-
+.stats-container {
+    background-color: #590f41 !important;
+}
