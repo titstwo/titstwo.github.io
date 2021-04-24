@@ -61,3 +61,12 @@ img {
 [data-aos=fade-down] {
     transform: translate3d(0,-100px,0);
 }
+.socials-nav-c svg {
+    width: 18px;
+}
+.custom-svg {
+    height: 60px;
+}
+.socials-footer-svg {
+    height: 32px;
+}
