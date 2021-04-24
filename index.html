@@ -444,8 +444,17 @@ The official home of Tits Coin
 <script type="text/javascript" src="./assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="./assets/js/argon.js"></script>
 <script type="text/javascript" src="./assets/js/custom.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 <script>
-  AOS.init();
+
+$( document ).ready(function() {    
+  var url = "https://unpkg.com/aos@2.3.1/dist/aos.js";
+  $.getScript( url, function() {
+    AOS.init({
+      startEvent: 'DOMContentLoaded'
+    });
+  });
+
+});
 </script>
 </html>
