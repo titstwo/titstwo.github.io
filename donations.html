@@ -413,6 +413,7 @@
   <script>
     function carouselNormalization() {
   var items = $('#carouselExampleControls .carousel-item'), //grab all slides
+    inner = $('.thumbnail-background'),
     heights = [], //create empty array to store height values
     tallest; //create variable to make note of the tallest slide
 
@@ -424,9 +425,11 @@
       tallest = Math.max.apply(null, heights); //cache largest value
       items.each(function() {
         $(this).css('min-height', tallest + 'px');
-      });
-      $(".thumbnail-background").css("min-height",tallest+'px');
-    };
+      });      
+      inner.each(function() {
+        $(this).css("min-height",tallest+'px');
+      });            
+    };    
     normalizeHeights();
 
     $(window).on('resize orientationchange', function() {
