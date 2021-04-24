@@ -6,9 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=0.87, shrink-to-fit=no">
 <meta name="description" content="The official home of Tits Coin. The Tits Protocol is a community driven, fair launched DeFi Token. Three simple functions occur during each trade: Reflection, LP Acquisition, and Burn.">
 <meta name="keywords" content="tits coins,tits,bitcoin,dogecoin,doge,defi,coinbase,coinmarketcap,coinmarket,bscscan,whitebit,coingecko,cryptocurrency,crypto,pancakeswap,dex,etherium,eth,btc">
-<link rel="shortcut icon" type="image/png" href="https://titstwo.github.io/assets/images/favicon.png">
+<link rel="shortcut icon" type="image/png" href="https://d308fakbqebk7c.cloudfront.net/tits/images/favicon.png">
 <link rel="canonical" href="https://tits.io/">
-<meta property='og:image' content='https://titstwo.github.io/assets/images/titscoin-social.png' />
+<meta property='og:image' content='https://d308fakbqebk7c.cloudfront.net/tits/images/titscoin-social.png' />
 <meta property='og:image:type' content='image/png' />
 <meta property='og:image:width' content='1280' />
 <meta property='og:image:height' content='640' />
@@ -16,213 +16,218 @@
 <meta name='twitter:description' content='The official home of Tits Coin. The Tits Protocol is a community driven, fair launched DeFi Token. Three simple functions occur during each trade: Reflection, LP Acquisition, and Burn.' />
 <meta name='twitter:title' content='Tits Coin Protocol' />
 <meta name="twitter:site" content="@titsio">
-<meta name='twitter:image' content='https://titstwo.github.io/assets/images/titscoin-social.png' />
-<link rel="shortcut icon" type="image/png" href="https://titstwo.github.io/assets/images/favicon.png">
+<meta name='twitter:image' content='https://d308fakbqebk7c.cloudfront.net/tits/images/titscoin-social.png' />
+<link rel="shortcut icon" type="image/png" href="https://d308fakbqebk7c.cloudfront.net/tits/images/favicon.png">
 <link rel="stylesheet" type="text/css" href="./assets/css/argon.css" />
 <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
-<script type="text/javascript" src="./assets/js/jquery.js"></script>
-<script type="text/javascript" src="/assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="/assets/js/cookie.js"></script>
-<script type="text/javascript" src="/assets/js/fontawesome.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://d308fakbqebk7c.cloudfront.net/tits/js/cookie.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;500;700;900&display=swap" rel="stylesheet">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <style>
   .text-success{color: #fff !important}body{background-color: #fff !important;background-image: none !important;}p{color: #F06999 !important}.whitepaper-container .text-info{color: #610022 !important}.whitepaper-container a{color: #76223f!important;font-weight: 700;}
 </style>
+</head>
 <body>
-  <div class="particle-container bg-dark">
-    <div id="particles-js"></div>
-    <div class="top-bar">
-      <div class="container">
-        <div class="d-flex justify-content-between">
-          <div class="d-none d-lg-block w-100">
-            <ul class="topnav">
-              <li class='text-white-50'>
-                The official home of Tits Coin
-              </li>
-            </ul>
-          </div>
-          <div style="font-size:20px;line-height:45px;line-height: 43px;display: flex;align-items: center;flex-direction: row;justify-content: flex-end;" class="text-center text-lg-right w-100">
-            <a href="http://twitter.com/titsfortits2" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Twitter">
-            <i class="fab fa-twitter fa-fw"></i>
-            </a>
-            <a href="https://t.me/TitsToTheMoon" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Telegram">
-            <i class="fab fa-telegram fa-fw"></i>
-            </a>
-            <a href="https://instagram.com/titscoin" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Instagram">
-              <i class="fab fa-instagram fa-fw"></i>
-              </a>
-              <a href="https://www.facebook.com/TitsCoin-105274645039214" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Facebook">
-                <i class="fab fa-facebook fa-fw"></i>
-              </a>
-              <a href="mailto:support@titscoin.io" class="mx-2 text-info"data-toggle="tooltip" title="Email" style="font-size: 12px; font-weight: 500;">
-                <span>support@titscoin.io</span>
-              </a>
-            </div>
-        </div>
-      </div>
-    </div>
-    <nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light mt-5">
-      <div class="container">
-        <a class="navbar-brand" href="/">
-          <img src="./assets/images/tits_logo_circle_1_50x.png" height=50 class="mr-3">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse navbar-custom-collapse collapse" id="navbar-collapse">
-          <div class="navbar-collapse-header">
-            <div class="row">
-              <div class="col-6 collapse-brand">
-                <a href="/">
-                  <img src="./assets/images/tits_logo_circle_1_50x.png" height=50 class="mr-3">
-                </a>
-              </div>
-              <div class="col-6 collapse-close">
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                  <span></span>
-                  <span></span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/donations">Donations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/whitepaper">White Paper</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/guide">How to Buy</a>
-            </li>
-          </ul>
-          <a class="btn bg-gradient-info rounded-pill px-5 text-white border-0 buy-link shadow-lg-none shadow-sm" target="_blank" href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xfe7e350009a1f3915352022b1bfc2087d7b1d1cd">
-            Buy Now
-          </a>
-        </div>
-      </div>
-    </nav>
-    <div class="d-flex align-items-center text-center header coinimage-bg">
-      <div class="header-bg"></div>
-      <div class="flex-fill flex-grow-1" style="line-height:0.5em !important;">
-        <div class="hero-top-image">
-          <img src="./assets/images/titslogo_300x.png" alt="tits coin"/>
-        </div>
-        <div class="hero-text">
-          <div class="hero-title">Breast cancer research</div>
-          <div class="hero-title-2">$TITS</div>
-          <div class="f-cancer">Curing Cancer with Crypto</div>      
-          <div class="hero-subtitle">Titscoin.io is a the first coin ever designed to leverage the revolutionary power of cryptocurrency in the 21st century to find a cure for Breast Cancer once and for all.</div>
-        </div>
-      </div>
-    </div>
-    <div class="py-4 stats-container" style="background-color:rgba(255,255,255,0.02)">
+<div class="particle-container bg-dark">
+
+<div class="top-bar">
+<div class="container">
+<div class="d-flex justify-content-between">
+<div class="d-none d-lg-block w-100">
+<ul class="topnav">
+<li class='text-white-50'>
+The official home of Tits Coin
+ </li>
+</ul>
+</div>
+<div style="font-size:20px;line-height:45px;line-height: 43px;display: flex;align-items: center;flex-direction: row;justify-content: flex-end;" class="text-center text-lg-right w-100 socials-nav-c">
+    <a href="http://twitter.com/titsfortits2" class="mx-2 text-info" target="_blank" title="Twitter" aria-label="Twitter" rel="noreferrer">
+      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+    </a>
+    <a href="https://t.me/TitsToTheMoon" class="mx-2 text-info" target="_blank"  title="Telegram" aria-label="Telegram" rel="noreferrer">
+      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram" class="svg-inline--fa fa-telegram fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"></path></svg>
+    </a>
+    <a href="https://instagram.com/titscoin" class="mx-2 text-info" target="_blank"  title="Instagram" aria-label="Instagram" rel="noreferrer">
+    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+    </a>
+    <a href="https://www.facebook.com/TitsCoin-105274645039214" class="mx-2 text-info" target="_blank"  title="Facebook" aria-label="Facebook" rel="noreferrer">
+      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" class="svg-inline--fa fa-facebook fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
+    </a>
+    <a href="mailto:support@titscoin.io" class="mx-2 text-info" title="Email" style="font-size: 12px; font-weight: 500;" aria-label="Email" rel="noreferrer">
+      <span>support@titscoin.io</span>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+<nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light mt-5">
+  <div class="container">  
   
-      <div class="container text-center">
-        <div class="d-flex flex-column flex-lg-row">
-          <div class="flex-fill mb-3 mb-lg-0">
-            <div class="d-flex">
-              <div class="flex-fill">
-                <a href="https://poocoin.app/tokens/0xfe7e350009a1f3915352022b1bfc2087d7b1d1cd" class="btn btn-success" target="_blank">
-                  Live Chart
-                </a>
-              </div>
-              <div class="flex-fill">
-                <span class="mb-0 font-weight-bold  text-white">
-                  <i class="far fa-dollar-sign"></i>
-                  <span>
-                    75,000
-                  </span>
-                </span><br>
-                <small class="text-white-50 text-uppercase">Total Raised</small>
-              </div>
-              <div class="flex-fill">
-                <span class="text-white mb-0 font-weight-bold">
-                  <i class="far fa-dollar-sign"></i>
-                  <span id="value">
-                    <i class="fad fa-spinner fa-pulse"></i>
-                  </span>
-                </span><br>
-                <small class="text-white-50 text-uppercase">Value</small>
-              </div>
-              <div class="flex-fill">
-                <span class="text-white mb-0 font-weight-bold">
-                  1,613
-                </span><br>
-                <small class="text-white-50 text-uppercase">
-                  Holders
-                </small>
-              </div>
+  <a class="navbar-brand" href="/" aria-label="Home Page">
+  <img src="https://d308fakbqebk7c.cloudfront.net/tits/images/tits_logo_circle_1_50x.png" height="30" width="30" class="mr-3" alt="tits logo circle">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse navbar-custom-collapse collapse" id="navbar-collapse">
+  <div class="navbar-collapse-header">
+  <div class="row">
+  <div class="col-6 collapse-brand">
+  <a href="/" aria-label="Home Page Mobile" >
+  <img src="https://d308fakbqebk7c.cloudfront.net/tits/images/titscoin-background_50x.png" height=50 class="mr-3" alt="tits logo background">
+  </a>
+  </div>
+  <div class="col-6 collapse-close">
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+  <span></span>
+  <span></span>
+  </button>
+  </div>
+  </div>
+  </div>
+  <ul class="navbar-nav ml-auto">
+  <li class="nav-item">
+  <a class="nav-link" href="/" aria-label="Home Page">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/donations" aria-label="Donations Page">Donations</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="/whitepaper" aria-label="White Paper Page">White Paper</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="/guide" aria-label="How to Buy Page">How to Buy</a>
+  </li>
+  </ul>
+  <a class="btn bg-gradient-info rounded-pill px-5 text-white border-0 buy-link shadow-lg-none shadow-sm" target="_blank" href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xfe7e350009a1f3915352022b1bfc2087d7b1d1cd" aria-label="Buy Now Page" rel="noreferrer">
+  Buy Now
+  </a>
+  </div>
+  </div>
+  </nav>
+  <div class="d-flex align-items-center text-center header coinimage-bg">
+    <div class="header-bg"></div>
+    
+  <div class="flex-fill flex-grow-1" style="line-height:0.5em !important;">
+    <div class="hero-top-image">
+      <img src="https://d308fakbqebk7c.cloudfront.net/tits/images/titslogo_300x.png" width="150" height="207" alt="tits coin"/>
+    </div>
+      <div class="hero-text">
+        <div class="hero-title">Breast cancer research</div>
+        <div class="hero-title-2">$TITS</div>
+        <div class="f-cancer">Curing Cancer with Crypto</div>      
+        <div class="hero-subtitle">Join 1,200+ Holders of Tits Coin, the FIRST Breast Cancer Awareness charity coin on the Binance Smart Chain.</div>
+      </div>
+  </div>
+  
+  
+  </div>
+  <div class="py-4 stats-container" style="background-color:rgba(255,255,255,0.02)">
+    
+    <div class="container text-center">
+      <div class="d-flex flex-column flex-lg-row">
+        <div class="flex-fill mb-3 mb-lg-0">
+          <div class="d-flex">
+            <div class="flex-fill">
+              <a href="https://poocoin.app/tokens/0xfe7e350009a1f3915352022b1bfc2087d7b1d1cd" class="btn btn-success" target="_blank" aria-label="Live Chart" rel="noreferrer">
+                Live Chart
+              </a>
+            </div>
+            <div class="flex-fill">
+              <span class="mb-0 font-weight-bold  text-white">
+                <i class="far fa-dollar-sign"></i>
+                <span>
+                  75,000
+                </span>
+              </span><br>
+              <small class="text-white-50 text-uppercase">Total Raised</small>
+            </div>
+            <div class="flex-fill">
+              <span class="text-white mb-0 font-weight-bold">
+                <i class="far fa-dollar-sign"></i>
+                <span id="value">
+                  <i class="fad fa-spinner fa-pulse"></i>
+                </span>
+              </span><br>
+              <small class="text-white-50 text-uppercase">Value</small>
+            </div>
+            <div class="flex-fill">
+              <span class="text-white mb-0 font-weight-bold">
+                1,613
+              </span><br>
+              <small class="text-white-50 text-uppercase">
+                Holders
+              </small>
             </div>
           </div>
-          <div class="flex-fill">
-            <div class="d-flex">
-              <div class="flex-fill">
-                <span class="mb-0 font-weight-bold text-white">
-                  <i class="far fa-dollar-sign"></i>
-                  <span id="lptotal">
-                    <i class="fad fa-spinner fa-pulse"></i>
-                  </span>
-                </span><br>
-                <small class="text-white-50 text-uppercase">Liquidity (USD)</small>
-              </div>
-              <div class="flex-fill">
-                <span class="mb-0 font-weight-bold  text-white">
-                  <i class="far fa-dollar-sign"></i>
-                  <span id="marketcap">
-                    <i class="fad fa-spinner fa-pulse"></i>
-                  </span>
-                </span><br>
-                <small class="text-white-50 text-uppercase">Market Cap (USD)</small>
-              </div>
-              <div class="flex-fill">
-                <span class="mb-0 font-weight-bold text-white">
-                  <span id="burned">
-                    <i class="fad fa-spinner fa-pulse"></i>
-                  </span>
-                </span><br>
-                <small class="text-white-50 text-uppercase">Burned</small>
-              </div>
+        </div>
+        <div class="flex-fill">
+          <div class="d-flex">
+            <div class="flex-fill">
+              <span class="mb-0 font-weight-bold text-white">
+                <i class="far fa-dollar-sign"></i>
+                <span id="lptotal">
+                  <i class="fad fa-spinner fa-pulse"></i>
+                </span>
+              </span><br>
+              <small class="text-white-50 text-uppercase">Liquidity (USD)</small>
+            </div>
+            <div class="flex-fill">
+              <span class="mb-0 font-weight-bold  text-white">
+                <i class="far fa-dollar-sign"></i>
+                <span id="marketcap">
+                  <i class="fad fa-spinner fa-pulse"></i>
+                </span>
+              </span><br>
+              <small class="text-white-50 text-uppercase">Market Cap (USD)</small>
+            </div>
+            <div class="flex-fill">
+              <span class="mb-0 font-weight-bold text-white">
+                <span id="burned">
+                  <i class="fad fa-spinner fa-pulse"></i>
+                </span>
+              </span><br>
+              <small class="text-white-50 text-uppercase">Burned</small>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  </div>
   <div class="card border-0 rounded-0">
-    <div class="card-body py-5">
-      <div class="container">
-        <div class="d-flex align-items-center">
-          <div class="flex-fill">
-            <h1 class="font-weight-bold text-info mb-0 text-center mb-5 text-uppercase">
-              Charities we are donating to
-            </h1>
-            <div class="row charities-row">
-              <div class="col-6 col-md-3">
-                <img src="./assets/images/bcrf.svg">
-              </div>
-              <div class="col-6 col-md-3">
-                <img src="./assets/images/komen.png">
-              </div>
-              <div class="col-6 col-md-3 mt-5 mt-md-0">
-                <img src="./assets/images/nationalbreastcancer.svg">
-              </div>
-              <div class="col-6 col-md-3 mt-5 mt-md-0">
-                <img src="./assets/images/florida.png">
-              </div>
-            </div>
-          </div>
-          
-        </div>
+  <div class="card-body py-5">
+    <div class="container">
+  
+  
+  
+  
+    
+      <div class="d-flex align-items-center">
+      <div class="flex-fill">
+      <h1 class="font-weight-bold text-info mb-0 text-center mb-5 text-uppercase">
+      Charities we are donating to
+      </h1>
+      <div class="row charities-row">
+      <div class="col-6 col-md-3">
+      <img src="https://d308fakbqebk7c.cloudfront.net/tits/images/bcrf.svg" width="188" height="72" alt="bcrf">
       </div>
-    </div>
+      <div class="col-6 col-md-3">
+      <img src="https://d308fakbqebk7c.cloudfront.net/tits/images/komen.png" width="210" height="74" alt="komen">
+      </div>
+      <div class="col-6 col-md-3 mt-5 mt-md-0">
+      <img src="https://d308fakbqebk7c.cloudfront.net/tits/images/nationalbreastcancer.svg" width="210" height="55" alt="national breast cancer">
+      </div>
+      <div class="col-6 col-md-3 mt-5 mt-md-0">
+        <img src="https://d308fakbqebk7c.cloudfront.net/tits/images/florida.png" width="210" height="107" alt="florida">
+      </div>
+      </div>
+      </div>
+      
+      </div>
+      </div>
+  </div>
   </div>
   
   <div class="container whitepaper-container">  
@@ -421,84 +426,93 @@
   </div>
   <footer class="footer py-5 mt-5">
     <div class="container">
-      <div class="row row-grid align-items-center">
-        <div class="col-lg-6">
-          <div class="d-flex align-items-center">
-            <div class="flex-fill">
-              <h1 class="text-info mb-0">Tits Coin Protocol</h1>
-              <p class="mb-3 mb-md-0 text-justify text-white-50">
-                The Tits Coin Protocol is a community driven, fair launched DeFi Token.
-                Three simple functions occur during each trade: Reflection, LP Acquisition, & Burn.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 btn-wrapper text-center text-md-right mt-sm-4 mt-lg-0">
-          <a href="http://twitter.com/titsfortits2" class="px-3 text-info" target="_blank">
-            <i class="fab fa-twitter fa-2x"></i>
-          </a>
-          <a href="https://t.me/TitsToTheMoon" class="px-3 text-info" target="_blank">
-            <i class="fab fa-telegram fa-2x"></i>
-          </a>
-          <a href="https://instagram.com/titscoin" class="px-3 text-info" target="_blank">
-            <i class="fab fa-instagram fa-2x"></i>
-          </a>
-          <a href="https://www.facebook.com/TitsCoin-105274645039214" class="px-3 text-info" target="_blank">
-            <i class="fab fa-facebook fa-2x"></i>
-          </a>
-        </div>
-      </div>
-      <hr>
-      <div class="row flex-column-reverse flex-lg-row align-items-center justify-content-md-between">
-        <div class="col-lg-6">
-          <div class="copyright text-center text-lg-left">
-            &copy; 2021
-            <a href="/" class="text-info">Tits Coin</a> | All Rights Reserved.
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-            
-            <li class="nav-item">
-              <a href="/whitepaper" class="nav-link">
-                Whitepaper
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="/guide" class="nav-link">
-                How to Buy
-              </a>
-            </li>
-            
-          </ul>
-        </div>
-      </div>
+    <div class="row row-grid align-items-center">
+    <div class="col-lg-6">
+    <div class="d-flex align-items-center">
+    <div class="flex-fill">
+    <h1 class="text-info mb-0">Tits Coin Protocol</h1>
+    <p class="mb-3 mb-md-0 text-justify text-white-50">
+    The Tits Coin Protocol is a community driven, fair launched DeFi Token.
+    Three simple functions occur during each trade: Reflection, LP Acquisition, & Burn.
+    </p>
     </div>
+    </div>
+    </div>
+    <div class="col-lg-6 btn-wrapper text-center text-md-right mt-sm-4 mt-lg-0">
+    <a href="http://twitter.com/titsfortits2" class="px-3 text-info" target="_blank" aria-label="Twitter Footer" rel="noreferrer">
+      <svg class="socials-footer-svg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+    </a>
+    <a href="https://t.me/TitsToTheMoon" class="px-3 text-info" target="_blank" aria-label="Telegram Footer" rel="noreferrer">
+      <svg class="socials-footer-svg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram" class="svg-inline--fa fa-telegram fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"></path></svg>
+    </a>
+    <a href="https://instagram.com/titscoin" class="px-3 text-info" target="_blank" aria-label="Instagram" rel="noreferrer">
+      <svg class="socials-footer-svg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+    </a>
+    <a href="https://www.facebook.com/TitsCoin-105274645039214" class="px-3 text-info" target="_blank" aria-label="Facebook" rel="noreferrer">
+      <svg class="socials-footer-svg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" class="svg-inline--fa fa-facebook fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
+    </a>
+    </div>
+    </div>
+    <hr>
+    <div class="row flex-column-reverse flex-lg-row align-items-center justify-content-md-between">
+    <div class="col-lg-6">
+    <div class="copyright text-center text-lg-left">
+    &copy; 2021
+    <a href="/" class="text-info" aria-label="Home Page">Tits Coin</a> | All Rights Reserved.
+    </div>
+    </div>
+    <div class="col-lg-6">
+    <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+    
+    <li class="nav-item">
+    <a href="/whitepaper" class="nav-link" aria-label="White Paper Page">
+    Whitepaper
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="/guide" class="nav-link" aria-label="Guide Page">
+    How to Buy
+    </a>
+    </li>
+  
+  </ul>
+  </div>
+  </div>
+  </div>
   </footer>
   
+  </body>
+  
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-224MNH8PDR"></script>
   <script>
-    let accepted = Cookies.get("accept_cookie");
-    
-    if (!accepted) {
-      $('#cookiebox').removeClass("d-none")
-    }
-    
-    $('#accept').click(function(event) {
-      event.preventDefault();
-      Cookies.set("accept_cookie", true, { expires: 30, path: '/'});
-      $('#cookiebox').slideUp()
-    });
-    </script>
-</body>
-<script type="text/javascript" src="./assets/js/argon.js"></script>
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script type="text/javascript" src="./assets/js/custom.js"></script>
-<script type="text/javascript" src="./assets/js/particles.js"></script>
-
-<script>
-  AOS.init();
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-224MNH8PDR');
   </script>
-</html>
-
-
-</head>
+  
+  <script type="text/javascript" src="https://d308fakbqebk7c.cloudfront.net/tits/js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://d308fakbqebk7c.cloudfront.net/tits/js/argon.js"></script>
+  
+  <script>
+  
+  $( document ).ready(function() {    
+    var web3 = "https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"
+    $.getScript( web3, function() {    
+      $.getScript("https://d308fakbqebk7c.cloudfront.net/tits/js/custom.js");
+    });
+  
+    var url = "https://unpkg.com/aos@2.3.1/dist/aos.js";
+    $.getScript( url, function() {
+      AOS.init({
+        startEvent: 'DOMContentLoaded'
+      });
+    });
+  
+  });
+  </script>
+  </html>
+  
