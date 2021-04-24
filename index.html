@@ -413,19 +413,7 @@ The official home of Tits Coin
 </div>
 </div>
 </footer>
-<script>
-        let accepted = Cookies.get("accept_cookie");
 
-        if (!accepted) {
-            $('#cookiebox').removeClass("d-none")
-        }
-
-        $('#accept').click(function(event) {
-            event.preventDefault();
-            Cookies.set("accept_cookie", true, { expires: 30, path: '/'});
-            $('#cookiebox').slideUp()
-        });
-    </script>
 </body>
 
 
