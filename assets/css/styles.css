@@ -375,8 +375,8 @@ footer {
     z-index: -1
 }
 
-.header-bg {
-    background-image: url(https://d308fakbqebk7c.cloudfront.net/tits/images/58931.jpg);
+.header-bg {    
+    background-color: #fce8ea;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -811,5 +811,8 @@ video {
         background-repeat: no-repeat;
         background-size: contain;
         margin: auto;
+    }
+    .header-bg {
+        background-image: url(https://d308fakbqebk7c.cloudfront.net/tits/images/58931.jpg);
     }
 }
