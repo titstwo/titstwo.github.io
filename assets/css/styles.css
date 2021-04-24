@@ -92,4 +92,15 @@ img {
     .mobile-only {
         display: block;
     }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        max-height: 420px;
+    }
+    .carousel-item {
+        height: 450px;
+        min-height: fit-content;
+    }
 }
+
