@@ -21,7 +21,6 @@
 <link rel="preload" href="./assets/css/argon.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="./assets/css/argon.css"></noscript>
 <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
-<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"></script>
 <link rel="canonical" href="https://titscoin.io"/>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -420,7 +419,17 @@ The official home of Tits Coin
 </div>
 </div>
 </footer>
-
+<script>
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    // Your custom settings go here
+  };
+</script>
+<script
+async
+src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"
+></script>
 </body>
 
 
@@ -453,9 +462,6 @@ $( document ).ready(function() {
   });
 
 });
-
-var lazyLoadInstance = new LazyLoad({
-  // Your custom settings go here
-});
 </script>
+
 </html>
