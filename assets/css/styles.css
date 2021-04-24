@@ -1,21 +1,25 @@
 @font-face {
     font-family: opensans-light;
-    src: url(https://d308fakbqebk7c.cloudfront.net/tits/fonts/OpenSans-Light.ttf)
+    src: url(https://d308fakbqebk7c.cloudfront.net/tits/fonts/OpenSans-Light.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: montserrat-bold;
-    src: url(https://d308fakbqebk7c.cloudfront.net/tits/fonts/Montserrat-Bold.otf)
+    src: url(https://d308fakbqebk7c.cloudfront.net/tits/fonts/Montserrat-Bold.otf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: montserrat-thin;
-    src: url(https://d308fakbqebk7c.cloudfront.net/tits/fonts/Montserrat-Light.otf)
+    src: url(https://d308fakbqebk7c.cloudfront.net/tits/fonts/Montserrat-Light.otf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: oribtron;
-    src: url(https://titscoin.io/assets/fonts/Orbitron.ttf)
+    src: url(https://titscoin.io/assets/fonts/Orbitron.ttf);
+    font-display: swap;
 }
 
 body {
