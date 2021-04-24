@@ -20,6 +20,10 @@
 <link rel="stylesheet" type="text/css" href="./assets/css/argon.css" />
 <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
 <link rel="canonical" href="https://titscoin.io"/>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://d308fakbqebk7c.cloudfront.net/tits/js/cookie.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;500;700;900&display=swap" rel="stylesheet">
 <style>
   h3 {
     font-size: .8125rem;
@@ -427,10 +431,25 @@ The official home of Tits Coin
 
   gtag('config', 'G-224MNH8PDR');
 </script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" async crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://d308fakbqebk7c.cloudfront.net/tits/js/cookie.js" async></script>
-<script type="text/javascript" src="https://d308fakbqebk7c.cloudfront.net/tits/js/argon.js" async></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js" async></script>
-<script type="text/javascript" src="https://d308fakbqebk7c.cloudfront.net/tits/js/custom.js" async></script>
-<script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js" async></script>
+
+<script type="text/javascript" async src="https://d308fakbqebk7c.cloudfront.net/tits/js/bootstrap.js"></script>
+<script type="text/javascript" async src="https://d308fakbqebk7c.cloudfront.net/tits/js/argon.js"></script>
+
+<script>
+
+$( document ).ready(function() {    
+  var web3 = "https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"
+  $.getScript( web3, function() {    
+    $.getScript("https://d308fakbqebk7c.cloudfront.net/tits/js/custom.js");
+  });
+
+  var url = "https://unpkg.com/aos@2.3.1/dist/aos.js";
+  $.getScript( url, function() {
+    AOS.init({
+      startEvent: 'DOMContentLoaded'
+    });
+  });
+
+});
+</script>
 </html>
