@@ -437,6 +437,9 @@
       items.each(function() {
         $(this).css('min-height', '0'); //reset min-height
       });
+      inner.each(function() {
+        $(this).css("min-height",tallest+'px');
+      }); 
       normalizeHeights(); //run it again 
     });
   }
