@@ -241,17 +241,17 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <a href="./assets/images/titscoin_donations_1.jpeg" class="d-flex mb-4 h-100 thumbnail-background">
+          <a href="./assets/images/titscoin_donations_1.jpeg" class="d-flex mb-4 h-100 thumbnail-background" data-fancybox="donations-m">
             <img class="img-fluid img-thumbnail-n" src="./assets/images/titscoin_donations_1.jpeg" alt="">
           </a>
         </div>
         <div class="carousel-item">
-          <a href="./assets/images/titscoin_donations_2.jpeg" class="d-flex mb-4 h-100 thumbnail-background">
+          <a href="./assets/images/titscoin_donations_2.jpeg" class="d-flex mb-4 h-100 thumbnail-background" data-fancybox="donations-m">
             <img class="img-fluid img-thumbnail-n" src="./assets/images/titscoin_donations_2.jpeg" alt="">
           </a>
         </div>
         <div class="carousel-item">
-          <a href="./assets/images/titscoin_donations_3.jpeg" class="d-flex mb-4 h-100 thumbnail-background">
+          <a href="./assets/images/titscoin_donations_3.jpeg" class="d-flex mb-4 h-100 thumbnail-background" data-fancybox="donations-m">
             <img class="img-fluid img-thumbnail-n" src="./assets/images/titscoin_donations_3.jpeg" alt="">
           </a>
         </div>
@@ -449,6 +449,21 @@ window.onload = function() {
   </script>
   <script>
     $('[data-fancybox="donations"]').fancybox({
+    buttons : [ 'close'],
+    hash : false,
+    share : {
+        url : function( instance, item ) {
+            if (item.type === 'inline' && item.contentType === 'video') {
+                return item.$content.find('source:first').attr('src');
+            }
+
+            return item.src;
+            }
+        }
+    });
+  </script>
+  <script>
+    $('[data-fancybox="donations-m"]').fancybox({
     buttons : [ 'close'],
     hash : false,
     share : {
