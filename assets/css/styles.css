@@ -109,7 +109,7 @@ a.text-info:hover {
 }
 .mobile-buy-bar {
     background: linear-gradient( 87deg,#d7134c 0,#ff5582 100%)!important;
-    height: 56px;
+    height: 64px;
     position: fixed;
     bottom: 0;
     left: 0;
