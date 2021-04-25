@@ -331,7 +331,7 @@ footer {
 }
 
 .hero-title {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
     color: #620f47;
@@ -858,4 +858,8 @@ video {
     .mobile-buy-now {
         display: none;
     }
+    .hero-title {
+        font-size: 32px;
+    }
 }
+
