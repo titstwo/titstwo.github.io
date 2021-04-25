@@ -90,7 +90,7 @@ a.text-info:hover {
     top: 6px;
     left: 8px;
     color: #fff;
-    z-index: 9999;
+    z-index: 9999999;
     background-color: #d7134c;
     background: linear-gradient( 87deg,#d7134c 0,#ff5582 100%)!important;
     border-radius: 50rem;
@@ -105,6 +105,25 @@ a.text-info:hover {
     font-family: 'Archivo', Helvetica, Arial, sans-serif;
 }
 .mobile-buy-now:hover, .mobile-buy-now:active, .mobile-buy-now:focus {
+    color: #fff !important;
+}
+.mobile-buy-bar {
+    background: linear-gradient( 87deg,#d7134c 0,#ff5582 100%)!important;
+    height: 56px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+    padding: 8px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Archivo', Helvetica, Arial, sans-serif;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.mobile-buy-bar:hover, .mobile-buy-bar:active, .mobile-buy-bar:focus {
     color: #fff !important;
 }
 .badge-info {
