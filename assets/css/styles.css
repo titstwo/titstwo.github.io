@@ -87,7 +87,7 @@ a.text-info:hover {
 .mobile-buy-now {
     width: 106px;
     position: fixed;
-    top: 8px;
+    top: 6px;
     left: 8px;
     color: #fff;
     z-index: 9999;
@@ -101,7 +101,7 @@ a.text-info:hover {
     letter-spacing: .025em;
     text-transform: none;
     will-change: transform;
-    padding: 3px 14px!important;
+    padding: 5px 14px!important;
 }
 .badge-info {
     background-color: #e64880!important;
